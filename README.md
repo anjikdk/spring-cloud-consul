@@ -10,4 +10,6 @@ Before starting the exercise, We need to first download, configure and run consu
 consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=192.168.6.1
 3. Make sure you enter the correct bind address, it would be different depending on the LAN settings. Do a ipconfig in command prompt to know your IpV4 address and use it here.
 4. Test whether Consul Server is running – Consul runs on default port and once agent started successfully, browse http://localhost:8500/ui and you should see a console screen
+5. So we have configured consul in our local machine and consul agent is running successfully. Now we need to create clients and test the service registry and discovery part
+6. We have created student-service and school-serivce
 
